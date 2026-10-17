@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "277900700721",
+    "firebase_url": "https://appx-store-a7292-default-rtdb.firebaseio.com",
+    "project_id": "appx-store-a7292",
+    "storage_bucket": "appx-store-a7292.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277900700721:android:4c012b8da6149ae3bbf910",
+        "android_client_info": {
+          "package_name": "com.appx_store"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277900700721-qar0kju3rvbdh06ookdovt3mt9a3n86p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk4H0kaBahNYH7BcEcvryDIArIur1EpeE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277900700721-qar0kju3rvbdh06ookdovt3mt9a3n86p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

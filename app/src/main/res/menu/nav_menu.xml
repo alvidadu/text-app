@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="@string/dashboard" />
+        <item
+            android:id="@+id/nav_apps"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/app_management" />
+        <item
+            android:id="@+id/nav_pending"
+            android:icon="@android:drawable/ic_menu_recent_history"
+            android:title="@string/pending_apps" />
+        <item
+            android:id="@+id/nav_updates"
+            android:icon="@android:drawable/ic_menu_upload"
+            android:title="@string/update_approval" />
+        <item
+            android:id="@+id/nav_verified"
+            android:icon="@android:drawable/ic_menu_myplaces"
+            android:title="@string/verified_badges" />
+        <item
+            android:id="@+id/nav_users"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="@string/user_management" />
+        <item
+            android:id="@+id/nav_developers"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="@string/developer_management" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@android:drawable/ic_menu_sort_by_size"
+            android:title="@string/category_management" />
+        <item
+            android:id="@+id/nav_featured"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="@string/featured_management" />
+        <item
+            android:id="@+id/nav_reviews"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="@string/review_management" />
+        <item
+            android:id="@+id/nav_reports"
+            android:icon="@android:drawable/ic_menu_report_image"
+            android:title="@string/report_management" />
+        <item
+            android:id="@+id/nav_analytics"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/analytics" />
+        <item
+            android:id="@+id/nav_activity_log"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:title="@string/activity_log" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:title="@string/settings" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@android:drawable/ic_lock_power_off"
+                android:title="@string/logout" />
+        </menu>
+    </item>
+</menu>
